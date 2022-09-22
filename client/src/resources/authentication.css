@@ -1,0 +1,55 @@
+.animate-this {
+    text-shadow: 2px 4px #444;
+    color: #fff;
+    position: relative;
+    animation-name: titleLabel;
+    animation-duration: 15s;
+}
+@keyframes titleLabel {
+  0%   { color: #FF0000; font-size: 40px; top: 0px; left: 0px; }
+  10%  { color: #FF7F00; font-size: 30px; top: 0px; left: 10px; }
+  20%  { color: #FFFF00; font-size: 40px; top: 0px; left: 0px; }
+  30%  { color: #00FF00; font-size: 30px; top: 0px; left: 10px; }
+  4%   { color: #0000FF; font-size: 40px; top: 0px; left: 0px; }
+  50%  { color: #4B0082; font-size: 30px; top: 0px; left: 10px; }
+  60%  { color: #9400D3; font-size: 40px; top: 0px; left: 0px; }
+  70%  { color: #FF0000; font-size: 30px; top: 0px; left: 10px; }
+  80%  { color: #FF7F00; font-size: 40px; top: 0px; left: 0px; }
+  90%  { color: #FFFF00; font-size: 30px; top: 0px; left: 10px; }  
+  100%  { color: #00FF00; font-size: 40px; top: 0px; left: 0px; }  
+}
+.register{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #009E60 0%, #00FF7F 100%);
+}
+.lottie{
+    height:400px;
+}
+
+.register input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.784);
+    color: rgba(255, 255, 255, 0.568);
+}
+em {
+    color: rgba(255, 255, 255, 0.836) !important;
+}
+input:focus{
+   outline: none !important;
+   box-shadow: none !important;
+   border-bottom: 1px solid rgba(255, 255, 255, 0.784) !important;
+}
+
+label , a{
+    color: rgba(255, 255, 255, 0.536) !important;
+}
+
+.register h1{
+    font-size: 35px;
+    color: white;
+    font-weight: 600;
+}
